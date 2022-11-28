@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operaciones</title>
+
+    <script>
+        let numero1, numero2, suma, resta //Declaracion reservar en memoria
+        //Ventana model de insercion de datos --> prompt()
+        numero1 = prompt("Dame el primer número");
+        numero2 = prompt("Dame el segundo número");
+        //Resultado operaciones
+        suma = parseFloat(numero1) + parseFloat(numero2);//expresion--> todas las instruciones que devuelve
+        resta = numero1 - numero2;
+
+        //template literals (plantillas de caracteres literal)
+
+        alert(`${numero1}+${numero2}=${suma}
+            ${numero1}-${numero2}=${resta}`);
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>
